@@ -28,7 +28,7 @@ module.exports = function (grunt) {
         cssmin: {
             combine: {
                 files: {
-                    'public/css/style.min.css': ['public/css/poole.css', 'public/css/hyde.css', 'public/css/syntax.css', '!public/css/style.min.css']
+                    'public/css/style.min.css': ['public/css/poole.css', 'public/css/hyde.css', 'public/css/syntax.css', 'public/css/custom.css', '!public/css/style.min.css']
                 }
             }
         },
@@ -48,14 +48,14 @@ module.exports = function (grunt) {
             },
             scripts: {
                 files: ['public/js/**/*.js'],
-                tasks: ['concat', 'uglify'],
+                tasks: ['concat', 'uglify', 'jekyll:server'],
                 options: {
                     spawn: false
                 }
             },
             stylesheets: {
                 files: ['public/css/*.css'],
-                tasks: ['cssmin'],
+                tasks: ['cssmin', 'jekyll:server'],
                 options: {
                     spawn: false
                 }
