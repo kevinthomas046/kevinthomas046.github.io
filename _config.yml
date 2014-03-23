@@ -23,3 +23,13 @@ version:          2.0.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+comments:
+  provider:       disqus
+  disqus:
+    short_name:   one34.com
+
+analytics:
+  provider:       google
+  google:
+    tracking_id:  'UA-47064907-1'
