@@ -1,0 +1,29 @@
+@media (max-width: 48rem) {
+	a.menu {
+		position: fixed;
+		width: 2.25rem;
+		top: 1rem;
+		left: 1rem;
+		padding: 0.5rem 0.65rem;
+		color: #505050;
+		cursor: pointer;
+		background: #fff;
+		border-radius: 0.25rem;
+	}
+	a.menu:before {
+		padding-bottom: .15rem;
+		border-top-width: .45rem;
+		border-bottom-width: .15rem;
+		display: block;
+		content: "";
+		width: 100%;
+		border-top: .375rem double;
+		border-bottom: .125rem solid;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+.sidebar {
+	text-align: left;
+}
