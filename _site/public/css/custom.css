@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oswald', 'Lato', Helvetica, Arial, serif, sans-serif;
+	font-weight: 400;
+}
 @media (max-width: 48rem) {
 	a.menu {
 		position: fixed;
@@ -5,7 +9,7 @@
 		top: 1rem;
 		left: 1rem;
 		padding: 0.5rem 0.65rem;
-		color: #505050;
+		color: #225378;
 		cursor: pointer;
 		background: #fff;
 		border-radius: 0.25rem;
@@ -26,4 +30,33 @@
 }
 .sidebar {
 	text-align: left;
+}
+
+.sidebar-about h1 {
+	font-family: 'Oswald', 'Lato', Helvetica, Arial, serif, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.15rem;
+	font-weight: 700;
+}
+
+/*
+ * Custom theme
+ */
+.theme-base-custom .sidebar {
+  background-color: #225378;
+}
+.theme-base-custom .content a,
+.theme-base-custom .related-posts li a:hover {
+  color: #225378;
+}
+.theme-base-custom .post-date {
+	color: #EB7F00;
+}
+.theme-base-custom .sidebar-about h1,
+.theme-base-custom .sidebar a {
+	color: #FFFFFF;
+}
+
+img.profile-picture {
+
 }

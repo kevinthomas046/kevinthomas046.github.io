@@ -10,7 +10,7 @@ title:            Kevin Thomas
 tagline:          'A Jekyll theme'
 description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              http://hyde.getpoole.com
-exclude:          ['app', 'node_modules', 'bower.json', 'Gruntfile.js', 'package.json', 'CNAME']
+exclude:          ['app', 'node_modules', 'bower.json', 'Gruntfile.js', 'package.json', 'CNAME', 'LICENSE.md', 'README.md']
 
 author:
   name:           'Mark Otto'
